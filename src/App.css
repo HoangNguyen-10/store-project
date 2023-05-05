@@ -1,38 +1,205 @@
-.App {
-  text-align: center;
+/*header*/
+.navbar{
+    position: fixed;
+    z-index:100;
+    width:100%;
+    top:0px;
+ 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+/*header end*/
+.footer-top,.footer-middle,.footer-bottom{
+    background-color:#333;
+    color:white;
+    border-top:1px solid #3b4149
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.store-brand{
+    border:2px solid #3b4149;
+    border-radius:50%;
+    padding:20px 10px
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a{
+    text-decoration:none
 }
 
-.App-link {
-  color: #61dafb;
+.msgError{
+    color:red;
+    font-size:14px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Login*/
+
+.form-login{
+    background:#232f3e;
+    width:400px;
+    height:350px;
+    border-radius:15px;
+    padding:15px;
+    margin-top:100px
 }
+
+
+.input-form{
+    border-radius:4rem;
+    padding:4px 10px;
+    outline:none;
+    border:none
+}
+
+.login-button{
+    border:none;
+    border-radius:2rem;
+    padding:5px 10px;
+    color:#232f3e
+}
+/*Login end*/
+
+/*Sign up*/
+
+.signupForm{
+    background:#232f3e;
+    width:400px;
+    height:420px;
+    border-radius:15px;
+    padding:15px;
+    margin-top:150px
+}
+
+.signup-input{
+    border-radius:4rem;
+    padding:4px 10px;
+    outline:none;
+    border:none
+}
+
+.signup-button{
+    border:none;
+    border-radius:2rem;
+    padding:5px 10px;
+    color:#232f3e
+}
+/*Sign up end*/
+
+/*homepage*/
+.homepage{
+    margin-top:100px
+    /* background:#2D2D2D */
+}
+.homepage-container{
+    background:#EFEFEF;
+    border-radius:1rem;
+  
+}
+
+.gap-10{
+    gap:10px
+}
+
+.gap-15{
+    gap:15px
+}
+
+.gap-20{
+    gap:20px
+}
+
+.gap-30{
+    gap:30px
+}
+
+.homepage-item-image{
+    width:100px;
+    top:-30px;
+    right:40px
+}
+
+.homepage-item-des{
+    padding-left:40px;
+  
+}
+
+
+
+.homepage-item{
+    height:100px;
+    background:white;
+    padding:1rem;
+    border-radius:1rem;
+    width:22%;
+    border-bottom:0px;
+    transition:0.3s;
+   
+    
+}
+.homepage-item:hover{
+    border-bottom:10px solid #777;
+  
+
+}
+
+.homepage-bottom-banner a{
+    overflow:hidden;
+  
+}
+
+.homepage-bottom-banner a:hover img{
+    transform:scale(1.15)
+}
+
+.homepage-bottom-image{
+    height:500px;
+    border-radius:2rem;
+    transition:0.5s;
+    width:1000px
+}
+
+.homepage-bottom-banner-text{
+    top:300px;
+    background:white;
+    border-radius:1rem;
+    padding:5px 10px;
+    display:none;
+}
+
+.homepage-bottom-banner:hover .homepage-bottom-banner-text{
+    display:block;
+    cursor:pointer
+}
+
+/*about page*/
+.about-page{
+    margin-top:100px
+}
+/*about page end*/
+
+/*Products*/
+
+.products-content{
+    margin-top:100px
+}
+/*Products end*/
+
+/*contact page*/
+.contact-image{
+   margin-top:100px
+}
+/*contact page end*/
+
+/*product*/
+.product-content{
+    margin-top:100px
+}
+/*product end*/
+
+/*cart content*/
+.cart-content{
+    margin-top:100px
+}
+/*cart content end*/
+
+
+
+
