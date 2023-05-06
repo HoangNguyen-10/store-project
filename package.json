@@ -1,7 +1,6 @@
 {
   "name": "store",
   "version": "0.1.0",
-  "homepage": "https://HoangNguyen-10.github.io/store-project/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
