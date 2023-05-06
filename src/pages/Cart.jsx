@@ -15,7 +15,7 @@ export default function Cart() {
     }
     return (
         <div>
-            <div className="container cart-content">
+            <div className="container cart-content ">
                 {state.length > 0 ? (state.map(product => (
                     <div key={product.id} className='row py-5 align-items-center'>
                         <div className="col-md-4 text-center">
@@ -28,7 +28,7 @@ export default function Cart() {
                             <button style={{ width: '40px' }} className='btn btn-secondary mt-3' onClick={() => handleDel(product)}>-</button>
                         </div>
                     </div>
-                ))) : <h1 className='text-center'>Your Cart Is Empty</h1>}
+                ))) : <h1 className='text-center py-5'>Your Cart Is Empty</h1>}
             </div>
         </div>
     )
