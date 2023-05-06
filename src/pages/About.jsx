@@ -5,23 +5,16 @@ export default function About() {
     return (
         <div>
             <div className="container">
-
                 <div className="row">
-
                     <div className="col-12">
-
                         <div className="about-page">
                             <div className="about-page-top text-center ">
-
                                 <Path title='About' />
-
-                                <img src="https://media.istockphoto.com/id/1272744431/photo/theyre-ready-to-push-towards-success-with-tenacity-and-confidence.jpg?s=612x612&w=0&k=20&c=H-e_iD5k3NK9PrzVFZWPM8TXCLmW4nv88B9PxqmZlys=" alt="" />
+                                <img style={{ width: '1000px', height: '500px' }} src="https://media.istockphoto.com/id/1272744431/photo/theyre-ready-to-push-towards-success-with-tenacity-and-confidence.jpg?s=612x612&w=0&k=20&c=H-e_iD5k3NK9PrzVFZWPM8TXCLmW4nv88B9PxqmZlys=" alt="" />
                                 <p className='lead py-4'>Established in 2014, the men's fashion brand 360 defines the mission of helping boys become more beautiful and confident in themselves. Nowadays young men are standing the great opportunities of modern society, development of information technology, revolution of social networking sites to assert themselves. Besides, 360 understands that young people are also facing pressures and challenges that urge themselves to show themselves compared to others.</p>
                             </div>
-
                         </div>
                     </div>
-
                 </div>
                 <div className="row py-3">
                     <div className="col-6">

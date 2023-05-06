@@ -34,18 +34,22 @@ export default function Product() {
     const ShowProduct = () => {
         return (
             <>
-                <div className="col-md-6 mt-5">
-                    <img src={product.image} width={400} height={450} alt="" />
-                </div>
-                <div className="col-md-6 mt-5">
-                    <h2 className='text-uppercase text-black-50 py-2'>{product.category}</h2>
-                    <h4 className='py-2'>{product.title}</h4>
-                    <h6>Rating: {product.rating && product.rating.rate} <AiFillStar className='text-warning fs-6' /></h6>
-                    <p className='lead'>{product.description}</p>
-                    <h2>$ {product.price}</h2>
-                    <div className="buttons py-4">
-                        <button className='btn btn-outline-dark me-3' onClick={() => handleAdd(product)}>Add to Cart</button>
-                        <Link className='btn btn-dark' to='/cart'>Go to Cart</Link>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-6 mt-5">
+                            <img src={product.image} width={400} height={450} alt="" />
+                        </div>
+                        <div className="col-lg-6 mt-5">
+                            <h2 className='text-uppercase text-black-50 py-2'>{product.category}</h2>
+                            <h4 className='py-2'>{product.title}</h4>
+                            <h6>Rating: {product.rating && product.rating.rate} <AiFillStar className='text-warning fs-6' /></h6>
+                            <p className='lead'>{product.description}</p>
+                            <h2>$ {product.price}</h2>
+                            <div className="buttons py-4">
+                                <button className='btn btn-outline-dark me-3' onClick={() => handleAdd(product)}>Add to Cart</button>
+                                <Link className='btn btn-dark' to='/cart'>Go to Cart</Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

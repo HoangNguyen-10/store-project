@@ -6,19 +6,19 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
-        <div className='footer-container'>
+        <div className='footer-container '>
             <footer className="footer-top py-3 mt-5">
                 <div className="container">
                     <div className="row d-flex align-items-center">
-                        <div className="col-6">
+                        <div className="col-md-6">
 
                             <h5> <GiCommercialAirplane /> Sign up for Newsletter</h5>
                         </div>
-                        <div className="col-2"></div>
-                        <div className="col-4">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Find everything..." aria-label="Recipient's username" aria-describedby="basic-addon2" />
-                                <span class="input-group-text" id="basic-addon2">Submit</span>
+
+                        <div className="col-md-6">
+                            <div className="input-group">
+                                <input type="text" className="form-control" placeholder="Find everything..." aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                                <span className="input-group-text" id="basic-addon2">Submit</span>
                             </div>
                         </div>
 
@@ -27,8 +27,8 @@ export default function Footer() {
             </footer>
             <footer className="footer-middle py-3">
                 <div className="container">
-                    <div className="row">
-                        <div className="col-4">
+                    <div className="row text-center">
+                        <div className="col-lg-3 col-md-4 col-sm-6 py-2">
                             <h5>Contact Us</h5>
                             <p className='d-flex flex-column lead fs-6' ><span>Email: 360boutique@gmail.com</span>
                                 <span>Tel: +123456789</span>
@@ -42,7 +42,7 @@ export default function Footer() {
                                 <Link to='https://www.instagram.com/'><AiOutlineInstagram className='text-white fs-4 me-2' /></Link>
                             </div>
                         </div>
-                        <div className="col-3">
+                        <div className="col-lg-3 col-md-4 col-sm-6 py-2">
                             <h5>
                                 Information
                             </h5>
@@ -50,7 +50,7 @@ export default function Footer() {
                             <p className='lead fs-6'>Refund Policy</p>
                             <p className='lead fs-6'>Shipping Policy</p>
                         </div>
-                        <div className="col-3">
+                        <div className="col-lg-3 col-md-4 col-sm-6 py-2">
                             <h5>
                                 Account
                             </h5>
@@ -59,7 +59,7 @@ export default function Footer() {
                             <p className='lead fs-6'>Faq</p>
                             <p className='lead fs-6'>Contact</p>
                         </div>
-                        <div className="col-2">
+                        <div className="col-lg-3 col-md-4 col-sm-6 py-2">
                             <h5>
                                 Quick Links
                             </h5>

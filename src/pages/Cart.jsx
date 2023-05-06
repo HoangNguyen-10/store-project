@@ -16,14 +16,12 @@ export default function Cart() {
     return (
         <div>
             <div className="container cart-content">
-
                 {state.length > 0 ? (state.map(product => (
                     <div key={product.id} className='row py-5 align-items-center'>
-
-                        <div className="col-md-4">
+                        <div className="col-md-4 text-center">
                             <img height={200} width={200} src={product.image} alt="" />
                         </div>
-                        <div className="col-md-4 text-center">
+                        <div className="col-md-4 text-center py-3">
                             <h4 className='text-black-50'> {product.title}</h4>
                             <h4 className='fw-bold'>{product.qty} x $ {product.price} = $ {product.qty * product.price}</h4>
                             <button style={{ width: '40px' }} className='btn btn-secondary mt-3 me-3' onClick={() => handleAdd(product)}>+</button>
